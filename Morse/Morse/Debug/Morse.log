@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\user\documents\visual studio 2015\projects\morse\morse\morse.h(142): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\documents\visual studio 2015\projects\morse\morse\morse.h(160): warning C4018: '<': signed/unsigned mismatch
+  Morse.vcxproj -> c:\users\user\documents\visual studio 2015\Projects\Morse\Debug\Morse.exe
+  Morse.vcxproj -> c:\users\user\documents\visual studio 2015\Projects\Morse\Debug\Morse.pdb (Full PDB)
