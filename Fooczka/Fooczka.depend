@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1509791229 source:c:\users\json\desktop\c++\fooczka\foczka.cpp
+	"foczka.h"
+	<string>
+	"windows.h"
+
+1509791124 c:\users\json\desktop\c++\fooczka\foczka.h
+	"alfabet.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1509791092 source:c:\users\json\desktop\c++\fooczka\main.cpp
+	<iostream>
+	<windows.h>
+	"foczka.h"
+
+1509653289 source:c:\users\json\desktop\c++\fooczka\alfabet.cpp
+	"alfabet.h"
+
+1509654366 c:\users\json\desktop\c++\fooczka\alfabet.h
+
