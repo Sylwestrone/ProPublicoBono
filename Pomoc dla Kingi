@@ -1,0 +1,13 @@
+Edit e;                                          //wyrysowanie 6 niebieskich pol
+	e.setPosition(7, 3);
+	e.setLength(6);
+	e.setText("Ala");
+	//e.setTextColor(Edit::White);  //enumeratory //osobny typ danych niezalezny od innych, mozna przerzutowac na inta, nie kazdego inta mozna przerzutowac na enumerator
+	//e.setBackground(Edit::Blue);
+	//e.display(); //metoda display wyrysowuje 6 pol, od lewej strony
+	//std::string s = e.getText(); //pobranie danych
+	//std::cout << s << std::endl;
+	//std::cout << red << s << defcolor << std::endl; //defcolor, defaultowy color na tablicy, czarne tlo biale napisy, kasuje
+	//e.userText(); //przekazuje sterowanie do uzytkownika, powrot kursora w poczatkowe miejsce, opanowac backspace, enter zakonczenie wprowadzania tekstu
+	//s = e.getText(); //
+	//std::cout << set
