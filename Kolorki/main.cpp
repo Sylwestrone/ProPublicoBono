@@ -17,7 +17,7 @@ int main()
 	std::cout << s << std::endl;
 	std::cout << red << s << defcolor << std::endl;
 	e.userText(); //przekazuje sterowanie do uzytkownika, powrot kursora w poczatkowe miejsce, opanowac backspace, enter zakonczenie wprowadzania tekstu
-	s = e.getText();
+	//s = e.getText();
     std::cout << s;
 
     return 0;

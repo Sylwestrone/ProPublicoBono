@@ -26,6 +26,8 @@ class Edit
         int textColor;
         int backgroundColor;
         int length;
+        int posX;
+        int posY;
         std::string text;
 
         void setColors() const;

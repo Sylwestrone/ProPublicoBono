@@ -4,6 +4,12 @@
 Edit::Edit()
 {
     handle = GetStdHandle(STD_OUTPUT_HANDLE);
+    posX = 0;
+    posY = 0;
+    length = 0;
+    text = "";
+    textColor = 0;
+    backgroundColor = 0;
 }
 
 Edit::~Edit()
@@ -20,6 +26,8 @@ Edit::Edit(const Edit& other)
 // Metoda pobiera wspolrzedne poczatkowej pozycji kursora i ustawia ja.
 void Edit::setPosition(const int posX, const int posY)
 {
+    this->posX = posX;
+    this->posY = posY;
     coord.X = posX;
     coord.Y = posY;
     SetConsoleCursorPosition(handle, coord);
@@ -67,8 +75,8 @@ std::string Edit::getText() const
 
 void Edit::userText()
 {
-     //setPosition( x, y );
-    //setColors();
+    //setPosition(posX, posY);
+    setColors();
 
     char tmp;
     int temp;

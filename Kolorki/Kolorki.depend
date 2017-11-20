@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1511134789 source:c:\users\json\desktop\c++\kolorki\main.cpp
+1511139554 source:c:\users\json\desktop\c++\kolorki\main.cpp
 	<iostream>
 	"CColor.h"
 	"Edit.h"
 
-1511134697 c:\users\json\desktop\c++\kolorki\include\edit.h
+1511138665 c:\users\json\desktop\c++\kolorki\include\edit.h
 	<windows.h>
 	<iostream>
 
-1511134824 source:c:\users\json\desktop\c++\kolorki\src\edit.cpp
+1511139506 source:c:\users\json\desktop\c++\kolorki\src\edit.cpp
 	"Edit.h"
 	<cstdio>
 
