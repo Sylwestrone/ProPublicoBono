@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1515365855 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\factory.cpp
+	"Factory.h"
+
+1515365855 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\factory.h
+	<iostream>
+	<string>
+	"../Type.h"
+	"../Morse.h"
+	"Beep.h"
+	"Blink.h"
+	"Console.h"
+
+1515365510 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\main.cpp
+	<iostream>
+	"Factory.h"
+
+1515359052 c:\users\skynet\desktop\new folder\fabryczkafoczek\type.h
+
+1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\morse.h
+	<string>
+
+1515363415 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\blink.cpp
+	"Blink.h"
+
+1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\blink.h
+	<string>
+	"../Morse.h"
+
+1515363387 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\console.cpp
+	"Console.h"
+
+1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\console.h
+	<string>
+	"../Morse.h"
+
+1515363405 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\signal.cpp
+	"Signal.h"
+
+1515364980 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\signal.h
+	<string>
+	"../Morse.h"
+
+1515363361 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\beep.cpp
+	"Beep.h"
+
+1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\beep.h
+	<string>
+	"../Morse.h"
+
+1515365195 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\disk.cpp
+	"Disk.h"
+
+1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\disk.h
+	<string>
+	"../Morse.h"
+
