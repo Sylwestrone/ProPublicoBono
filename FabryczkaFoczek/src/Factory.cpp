@@ -2,7 +2,7 @@
 
 Factory::Factory()
 {
-    instance = new Beep();
+    instance = new Console();
 }
 
 Factory::~Factory()
@@ -13,13 +13,14 @@ Factory::~Factory()
 void Factory::setExternalInfo(std::string parameters)
 {
     instance->setExternalInfo(parameters);
+    info = parameters;
 }
 
 void Factory::setOutput(Type type)
 {
     if(type == Type::beep)
     {
-        instance = new Beep();
+        instance = new Beeep();
     }
     else if(type == Type::blink)
     {
@@ -29,6 +30,11 @@ void Factory::setOutput(Type type)
     {
         instance = new Console();
     }
+    else if(type == Type::disk)
+    {
+        instance = new Disk();
+    }
+    instance->setExternalInfo(info);
 }
 
 
@@ -42,7 +48,8 @@ void Factory::convert(int number)
     instance->convert(number);
 }
 
-void Factory::operator<<(std::string text)
+Morse& Factory::operator<<(std::string text)
 {
     instance->convert(text);
+    return *this;
 }

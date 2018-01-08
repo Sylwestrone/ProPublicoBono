@@ -8,7 +8,7 @@ int main()
 {
     Factory f;
     f.setExternalInfo("200 200 400");
-    f.setOutput(Factory::beep);
+    f.setOutput(Factory::blink);
     f.convert("Ala ma kota");
     f << "kot ma ale";
     f.setOutput(Factory::disk);

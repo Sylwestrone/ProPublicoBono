@@ -10,6 +10,7 @@ class Morse
         virtual void setExternalInfo(std::string info) =0;
         virtual void convert(std::string text) =0;
         virtual void convert(int number) =0;
+        virtual Morse& operator<<(std::string text) =0;
 };
 
 

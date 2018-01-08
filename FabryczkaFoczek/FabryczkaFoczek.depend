@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1515365855 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\factory.cpp
+1515382481 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\factory.cpp
 	"Factory.h"
 
-1515365855 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\factory.h
+1515382481 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\factory.h
 	<iostream>
 	<string>
 	"../Type.h"
@@ -10,29 +10,40 @@
 	"Beep.h"
 	"Blink.h"
 	"Console.h"
+	"Disk.h"
 
-1515365510 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\main.cpp
+1515383609 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\main.cpp
 	<iostream>
 	"Factory.h"
 
 1515359052 c:\users\skynet\desktop\new folder\fabryczkafoczek\type.h
 
-1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\morse.h
+1515379712 c:\users\skynet\desktop\new folder\fabryczkafoczek\morse.h
 	<string>
 
-1515363415 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\blink.cpp
+1515384907 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\blink.cpp
 	"Blink.h"
 
-1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\blink.h
+1515384851 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\blink.h
 	<string>
+	<iostream>
+	"windows.h"
+	<iostream>
+	<sstream>
+	<cstdlib>
+	"../to_string.h"
 	"../Morse.h"
+	"MorseTranslator.h"
 
-1515363387 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\console.cpp
+1515382618 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\console.cpp
 	"Console.h"
 
-1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\console.h
+1515379781 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\console.h
 	<string>
+	<iostream>
 	"../Morse.h"
+	"MorseTranslator.h"
+	"../to_string.h"
 
 1515363405 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\signal.cpp
 	"Signal.h"
@@ -41,17 +52,37 @@
 	<string>
 	"../Morse.h"
 
-1515363361 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\beep.cpp
+1515384282 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\beep.cpp
 	"Beep.h"
 
-1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\beep.h
+1515382555 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\beep.h
 	<string>
+	<windows.h>
+	<iostream>
+	<sstream>
+	<cstdlib>
 	"../Morse.h"
+	"MorseTranslator.h"
+	"../to_string.h"
 
-1515365195 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\disk.cpp
+1515382625 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\disk.cpp
 	"Disk.h"
 
-1515365668 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\disk.h
+1515379787 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\disk.h
 	<string>
+	<fstream>
+	<iostream>
 	"../Morse.h"
+	"MorseTranslator.h"
+	"../to_string.h"
+
+1515380513 source:c:\users\skynet\desktop\new folder\fabryczkafoczek\src\morsetranslator.cpp
+	"MorseTranslator.h"
+
+1515377259 c:\users\skynet\desktop\new folder\fabryczkafoczek\include\morsetranslator.h
+	<string>
+
+1515379103 c:\users\skynet\desktop\new folder\fabryczkafoczek\to_string.h
+	<string>
+	<sstream>
 

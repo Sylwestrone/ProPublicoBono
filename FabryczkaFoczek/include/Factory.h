@@ -9,20 +9,25 @@
 #include "Beep.h"
 #include "Blink.h"
 #include "Console.h"
+#include "Disk.h"
 
+// Provider Fabryki.
+// Klasa inicjailujaca obiekt odpowiedniej klasy w zaleznosci od preferencji uzytkownika - jest posrednikiem pomiedzy uzytkownikiem a logika programu.
 class Factory : public Morse
 {
     public:
         Factory();
+        Factory()
         virtual ~Factory();
-        enum Type { beep, blink, console, disk};
+        enum Type { beep, blink, console, disk};                 // Enum przechowujacy wszsytkie sposoby zwracanego wyniku.
         void virtual setExternalInfo(std::string parameters);
-        void setOutput(Type type);
-        void virtual convert(std::string text);
+        void setOutput(Type type);                               // Metoda sluzaca ustawieniu sposobu zwrcania wynikow.
+        void virtual convert(std::string text);                  // Przesloniete metody klasy abstrakcyjnej Morse
         virtual void convert(int number);
-        void operator<< (std::string text);
+        Morse& operator<< (std::string text);
     private:
-        Morse *instance;
+        Morse *instance;                                         // instance jest instancja odpowiedniej klasy (w zaleznosci od wyboru outputu uzytkowanika). Morse jest wspolnym typem dla wszsytkich klas logicznych.
+        std::string info;                                        // Sluzy przekazaniu konfiguracji do dalszych etapow programu.
 
 };
 
